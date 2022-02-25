@@ -1,0 +1,25 @@
+{
+    "name": "Clear Cookies Chrome Plugin",
+    "description": "Clear the browser cookies for towardsdatascience.com in order to get free access to articles.",
+    "version": "0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["storage", "activeTab", "cookies", "tabs"],
+    "action": {
+        "default_icon": {
+        "16": "/cache_icon.png",
+        "32": "/cache_icon.png",
+        "48": "/cache_icon.png",
+        "128": "/cache_icon.png"
+      }
+    },
+    "icons": {
+        "16": "/cache_icon.png",
+        "32": "/cache_icon.png",
+        "48": "/cache_icon.png",
+        "128": "/cache_icon.png"
+    }
+  }
